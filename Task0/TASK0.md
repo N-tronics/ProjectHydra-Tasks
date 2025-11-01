@@ -9,6 +9,7 @@ Prepare your local environment for Kubernetes workflow,
 ensure you can deploy and monitor a basic cluster later,
 verify GitHub access for version control.
 
+Write Up must be done in the README.md file of this this TASK0 directory
 ---
 
 #### **Step 1. Install Required Tools**
