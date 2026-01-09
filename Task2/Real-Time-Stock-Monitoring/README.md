@@ -18,7 +18,7 @@
 
     The core microservice. It includes a specific endpoint to simulate system stress.
 
-    - Port: 8000
+    - ```http://localhost:80```
     - Endpoints:
         - ```/```: Basic dashboard to view stock data
         - ```/health```: Returns standard health status.
@@ -28,7 +28,7 @@
 
 2. Metrics Exporter:
 
-    A lightweight Python-based container that acts as the observation channel for the RL agent. It scrapes the Base Service and exposes data in the Prometheus text format on ```http://localhost:8000/```.
+    A lightweight Python-based container that acts as the observation channel for the RL agent. It scrapes the Base Service and exposes data in the Prometheus text format on ```http://localhost:8000```.
 
 3. Monitoring stack:
     - Prometheus
