@@ -1,0 +1,2 @@
+stress-ng --vm 1 --vm-bytes 100M --timeout 60s
+stress-ng --cpu 1 --cpu-load 50 --timeout 60s
